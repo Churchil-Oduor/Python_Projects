@@ -9,7 +9,6 @@ from .models import Question, Choice
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')
     context = {'latest_question_list' : latest_question_list}
-    print("My Question is : ", latest_question_list)
     return render(request, "polls/index.html", context)
 
 def details(request, question_id):
