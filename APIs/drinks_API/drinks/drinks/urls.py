@@ -1,5 +1,5 @@
 """
-URL configuration for students_details_api project.
+URL configuration for drinks project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,11 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from students_details_api import views
-
+from drinks import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('students_list/', views.student_list),
-    path('student_detail/<int:id>', views.student_detail),
+    path('drinks/', views.drink_list),
+    path('drinks/<int:id>', views.drink_detail)
 ]
