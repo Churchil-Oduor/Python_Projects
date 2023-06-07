@@ -9,7 +9,7 @@ The logic of operation is as follows:
 
 For instance:
 
-	text		    | B | A | N  | A |  N  | A	
+	text		| B | A | N  | A |  N  | A	
 	Numerical Value | 2 | 1 | 13 | 1 | 13  | 1
 	Rot13 substitute| 15| 14| 0  | 14| 0   | 14
 	Encrypted alph  | O | N | A  | N | A   | N
