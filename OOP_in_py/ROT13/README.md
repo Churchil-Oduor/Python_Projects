@@ -27,8 +27,7 @@ Place the file containing the code i.e rot13.py in you the directory of your pro
 
 	text = "Hello" # text to be encrypted
 	encrypted = rot13(text) # string in text is encripted and stored in variable
-
-print(encrypted) # you can print the encrypted data
+	print(encrypted) # you can print the encrypted data
 
 # How do I decrypt back to my original data?
 To Decrypt the data, run the same operation  as encrypting and this will decrypt the data.
