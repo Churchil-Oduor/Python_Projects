@@ -52,3 +52,5 @@ def drink_detail(request, id):
     elif request.method == 'DELETE':
          drink.delete()
          return Response(status=status.HTTP_204_NO_CONTENT)
+
+
