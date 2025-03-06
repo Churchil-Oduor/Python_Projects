@@ -1,13 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import time as ti
 
 # Number of samples
-N = 300
+N = 100
+
 angle = -2j * np.pi / N  # Negative sign for correct DFT calculation
 
 # Generate sine wave signal
 signal = []
-freq = 75  # specify the signal frequency here.
+freq = 20 # specify the signal frequency here.
 
 
 # getting the sampled data points
@@ -43,3 +45,4 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+
