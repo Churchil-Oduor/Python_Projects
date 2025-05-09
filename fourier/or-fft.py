@@ -9,12 +9,12 @@ angle = -2j * np.pi / N  # Negative sign for correct DFT calculation
 
 # Generate sine wave signal
 signal = []
-freq = 20 # specify the signal frequency here.
+freq = 40 # specify the signal frequency here.
 
 
 # getting the sampled data points
 for t in range(N):
-    data_point = np.sin(2 * np.pi * freq * t / N)  # Normalizing by N
+    data_point = np.sin(2 * np.pi * freq * t / N) + np.sin(2 * np.pi * 1 * t / N) # Normalizing by N
     signal.append(data_point)
 
 # Compute DFT
